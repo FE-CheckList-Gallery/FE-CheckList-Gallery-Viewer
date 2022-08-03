@@ -5,8 +5,12 @@
   "scripts": {
     "dev": "next dev -p 80",
     "build": "next build",
-    "start": "next start",
+    "start": "next dev",
     "lint": "next lint"
+  },
+  "engines": {
+    "node": "16.14.2",
+    "npm": "8.5.0"
   },
   "dependencies": {
     "axios": "^0.27.2",
